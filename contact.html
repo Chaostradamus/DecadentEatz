@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .jumbotron {
+        margin: 20px;
+        width: 100%;
+        border: 2px solid pink;
+        padding: 1px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: antiquewhite;
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+</style>
+
+<head>
+    <title>Amy's Contact Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="contactbackground">
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Decadent Eatz</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li class="dropdown">
+                    <a href="macarons.html">Macarons
+                </a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ice Creams
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Summer Flavors</a></li>
+                        <li><a href="#">Vegan Flavors</a></li>
+                        <li><a href="#">Matcha</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Swag
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                        <li><a href="#">Stickers</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Login</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Checkout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container row">
+        <div class="col-md-8">
+            <form class="form-horizontal" action="/action_page.php" style="padding-left: 15px;">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+
+                </div>
+                <div class="form-group">
+                    <label for=" usr ">Name:</label>
+                    <div></div>
+                    <input type="text " class="form-control " id="usr ">
+                </div>
+
+                <div class="form-group ">
+                    <label for="comment ">Comment:</label>
+                    <textarea class="form-control " rows="5 " id="comment "></textarea>
+                </div>
+
+                <div class="form-group ">
+                    <label for="sel1 ">Reason for contacting</label>
+                    <select class="form-control " id="sel1 ">
+              <option>Order Status</option>
+              <option>Product information</option>
+              <option>Other</option>
+              </select>
+                </div>
+
+
+                <div class="form-group" style="padding-left: 15px;">
+                    <div class=" col-sm-offset-2 col-sm-10 ">
+                        <button type="submit " class="btn btn-default ">Submit</button>
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        </form>
+        <div class="col-md-4 ">
+
+            <img src="https://www.pngitem.com/pimgs/m/517-5173320_kisspng-daisho-con-blog-anime-cute-puppy-5a9b89711c1ee8.png " class="img-circle " alt="corgi ">
+        </div>
+    </div>
+    </div>
+
+
+    <footer style="padding-top: 80px; ">
+        <div class="row text-center ">
+
+            <div class="col-md-4 ">
+                <p>Follow me on all socials @Decadent_Eatz</p>
+                <div>
+                    <a href=" # " class="fa fa-facebook "></a>
+                    <a href="# " class="fa fa-twitter "></a>
+                    <a href=" # " class="fa fa-instagram "></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 ">
+                <p>Sign up to our newsletter to get updates on new releases!</p>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-4 ">Est. 2020 Rona' Season</div>
+        </div>
+
+
+</body>
+
+</html>
